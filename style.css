@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://elements-video-cover-images-0.imgix.net/files/bbe1fa51-ec46-4c58-bcaa-75ada09f77ce/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=ad052591e8153c1ec6c48af35ca5d231);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    height: 320px;
+    width: 310px;
+}
+
+.container .input {
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.container .button {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#qrcode {
+    border: 5px solid black;
+    height: 300px;
+    width: 300px;   
+}
